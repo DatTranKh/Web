@@ -9,7 +9,7 @@
 	<!-- <persistence-unit name="jpa-hibernate-mysql"> 
 
 
- <class>vn.iotstar.entity.Category</class>
+ <class>hcmute.edu.vn.entity.Category</class>
 
 
  <properties>
@@ -52,17 +52,15 @@
 	<persistence-unit name="jpa-hibernate-mysql">
 
 
-		<class>vn.iotstar.entity.Category</class>
+		<class>hcmute.edu.vn.entity.Category</class>
 
 
-		<class>vn.iotstar.entity.Video</class>
+		<class>hcmute.edu.vn.entity.Video</class>
 
 
 		<properties>
 
-
-			<property name="jakarta.persistence.jdbc.url"
-				value="jdbc:sqlserver://localhost:1433;databaseName=jakartaJPA" />
+			<property name="jakarta.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;databaseName=test;encrypt=true;trustServerCertificate=true;"/>
 
 
 			<property name="jakarta.persistence.jdbc.driver"
@@ -73,7 +71,7 @@
 
 
 			<property name="jakarta.persistence.jdbc.password"
-				value="1234567@a$" />
+				value="123456" />
 
 
 			<property name="hibernate.show_sql" value="true" />
@@ -86,7 +84,7 @@
 
 
 			<property name="hibernate.dialect"
-				value="org.hibernate.dialect.SQLServer2012Dialect" />
+				value="org.hibernate.dialect.SQLServerDialect" />
 
 
 		</properties>
