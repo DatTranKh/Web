@@ -3,11 +3,11 @@ package hcmute.edu.vn.dao.impl;
 import java.util.List;
 
 import hcmute.edu.vn.config.JpaConfig;
-import hcmute.edu.vn.dao.ICategoryDao;
+import hcmute.edu.vn.dao.CategoryDao;
 import hcmute.edu.vn.entity.Category;
 import jakarta.persistence.*;
 
-public class CategoryDao implements ICategoryDao {
+public class CategoryDaoImpl implements CategoryDao {
 
 	@Override
 	public void insert(Category category) {

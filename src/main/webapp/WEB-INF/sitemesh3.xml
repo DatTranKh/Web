@@ -5,4 +5,6 @@
     <!-- Loại trừ những path không cần layout -->
     <mapping path="/api*" exclude="true" />
     <mapping path="/image*" exclude="true" />
+    <mapping path="/login" exclude="true" />
+    <mapping path="/register" exclude="true" />
 </sitemesh>

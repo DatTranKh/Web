@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 
 public class DBConnection {
     private final String serverName = "localhost";
-    private final String dbName = "test";
+    private final String dbName = "ShoppingServiceMVC";
     private final String portNumber = "1433";
     private final String instance = "";
     private final String userID = "sa";

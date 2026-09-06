@@ -1,16 +1,16 @@
 package hcmute.edu.vn.service.impl;
 
-import hcmute.edu.vn.dao.impl.CategoryDao;
 import hcmute.edu.vn.entity.Category;
 
 import java.util.List;
 
-import hcmute.edu.vn.dao.ICategoryDao;
-import hcmute.edu.vn.service.ICategoryService;
+import hcmute.edu.vn.dao.CategoryDao;
+import hcmute.edu.vn.dao.impl.CategoryDaoImpl;
+import hcmute.edu.vn.service.CategoryService;
 
-public class CategoryServiceImpl implements ICategoryService {
+public class CategoryServiceImpl implements CategoryService {
 
-	public ICategoryDao cateDao = new CategoryDao();
+	public CategoryDao cateDao = new CategoryDaoImpl();
 
 	@Override
 

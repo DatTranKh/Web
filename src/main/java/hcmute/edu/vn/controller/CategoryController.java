@@ -19,7 +19,7 @@ import java.util.List;
 import hcmute.edu.vn.service.impl.CategoryServiceImpl;
 import hcmute.edu.vn.util.Constant;
 import hcmute.edu.vn.entity.Category;
-import hcmute.edu.vn.service.ICategoryService;
+import hcmute.edu.vn.service.CategoryService;
 
 @MultipartConfig()
 
@@ -31,7 +31,7 @@ public class CategoryController extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 
-	public ICategoryService cateService = new CategoryServiceImpl();
+	public CategoryService cateService = new CategoryServiceImpl();
 
 	@Override
 
